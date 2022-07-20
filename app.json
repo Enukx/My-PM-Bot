@@ -10,7 +10,7 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather",
-            "value": "5499202096:AAHWhyELiJl2-h1b21-HOCMx04yQlsOH28c"
+            "value": ""
         },
         "MONGO_URI": {
             "description": "mongo URL, Get it from mongodb.com",
@@ -30,15 +30,15 @@
         },
         "START_STICKER": {
             "description": "Start Sticker Bot Api",
-            "value": "CAACAgUAAxkBAAEFUlpi2BEv_Y3vCry42VffJnKPd_aqpQACsAYAAkPEiVZK2U4fq8CYJSkE"
+            "value": "CAACAgUAAxkBAAEFUoli2CcJG6Ldil7SLr7afK_pU8nongACGwYAAsL8aFYdTXAtQ-z2fikE"
         },
         "API_ID": {
             "description": "Your API_ID from https://my.telegram.org/apps ",
-            "value": "19456231"
+            "value": ""
         },
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps",
-            "value": "a32ee947a133b10b9533012c4e7bf0b1"
+            "value": ""
         }
     },
     "stack": "heroku-20",
