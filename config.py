@@ -9,13 +9,13 @@ from pyrogram.types import *
 
 #Vars
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")  # from @botfather
-API_ID = int(os.getenv("API_ID", "19456231"))  # from https://my.telegram.org/apps
-API_HASH = os.getenv("API_HASH", "a32ee947a133b10b9533012c4e7bf0b1")  # from https://my.telegram.org/apps
+API_ID = int(os.getenv("API_ID", ""))  # from https://my.telegram.org/apps
+API_HASH = os.getenv("API_HASH", "")  # from https://my.telegram.org/apps
 MONGO_URI = os.getenv("MONGO_URI", "")
 force_subchannel = os.getenv("FSUB", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", "1884885842"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "2074453212"))
 START_STRING = os.getenv("START_STRING", "Hi {}, Welcome to  {}'s Pm Bot.")
-START_STICKER = os.getenv("START_STICKER", "CAADBQADZQQAAlHy2FQE5VU4XGjXrwI")
+START_STICKER = os.getenv("START_STICKER", "CAACAgUAAxkBAAEFUoli2CcJG6Ldil7SLr7afK_pU8nongACGwYAAsL8aFYdTXAtQ-z2fikE")
 #Strings 
 PM_TXT_ATT = "<b>Message from:</b> {}\n<b>Name:</b> {}\n\n{}"
 PM_TXT_ATTS = "<b>Message from:</b> {}\n<b>Name:</b> {}"
@@ -53,7 +53,7 @@ START_BUTTON = InlineKeyboardMarkup([[
                  InlineKeyboardButton('Eɴᴜᴋᴀ Pᴀᴛʜɪʀᴀɴᴀɢᴇ 🇱🇰', url="https://t.me/xEnuka")
                  ],
                  [
-                 InlineKeyboardButton(text="🌴 ʜᴇʟᴘ 🌴",callback_data="hlp")
+                 InlineKeyboardButton(text="🌴 ʜᴇʟᴘ 🌴",callback_data="This Bot Was Created By Enuka")
                  ],
                  [
                  InlineKeyboardButton("🍄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🍄", url="https://github.com/Enukx") 
