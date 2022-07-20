@@ -1,0 +1,56 @@
+{
+    "name": "Enuka PM Bot",
+    "description": "Multi Function Pm Bot",
+    "repository": "https://github.com/Gishankrishka2/MultiPm",
+    "logo": "https://telegra.ph/file/9f271ad6d291dac311b7d.jpg",
+    "keywords": ["pyrogram",
+                 "pyro",
+                 "telegram",
+                 "telebot"],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather",
+            "value": "5499202096:AAHWhyELiJl2-h1b21-HOCMx04yQlsOH28c"
+        },
+        "MONGO_URI": {
+            "description": "mongo URL, Get it from mongodb.com",
+            "value": ""
+        },
+        "FSUB": {
+            "description": "Force Sub Channel Username Without '@'",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Ur Telegram  Id",
+            "value": "2074453212"
+        },
+        "START_STRING": {
+            "description": "Start Message '{} {} These are required' ",
+            "value": ""
+        },
+        "START_STICKER": {
+            "description": "Start Sticker Bot Api",
+            "value": "CAACAgUAAxkBAAEFUlpi2BEv_Y3vCry42VffJnKPd_aqpQACsAYAAkPEiVZK2U4fq8CYJSkE"
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps ",
+            "value": "19456231"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps",
+            "value": "a32ee947a133b10b9533012c4e7bf0b1"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
