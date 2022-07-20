@@ -8,7 +8,7 @@ from pyrogram.errors import *
 from pyrogram.types import *
 
 #Vars
-BOT_TOKEN = os.getenv("BOT_TOKEN", "5499202096:AAHWhyELiJl2-h1b21-HOCMx04yQlsOH28c")  # from @botfather
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")  # from @botfather
 API_ID = int(os.getenv("API_ID", "19456231"))  # from https://my.telegram.org/apps
 API_HASH = os.getenv("API_HASH", "a32ee947a133b10b9533012c4e7bf0b1")  # from https://my.telegram.org/apps
 MONGO_URI = os.getenv("MONGO_URI", "")
