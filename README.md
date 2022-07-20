@@ -1,6 +1,6 @@
-# Memehub Bot
+# Enuka PM Bot
 <p align="center">
-<img src="https://telegra.ph/file/9c92683ff407ed7de9d71.jpg" width="520", height="520"></p>
+<img src="https://telegra.ph/file/e6b4127e69df4217df67f.jpg" width="520", height="520"></p>
 
 
 # Demo
@@ -28,26 +28,3 @@
 -  `MONGO_URI` - Get This Value from [Mongodb.](https://mongodb.com)
 -  `OWNER_ID` - Bot OWNER ids
 <br><br>
-
-CONTRIBUTIONS AND SUGGESTIONS ARE WELCOME !!
-
-
-* ### Support
-   - [@TR TECH GUIDE](https://t.me/trtechguide)
-   - [┊𝙰𝙻𝙿𝙷𝙰 Botz Chat](https://t.me/AlphaTm_Botz_chat)
-
-
-* ### Thanks to
-   - Dan for [Pyrogram](https://github.com/Pyrogram)
-* ### OWNERS
-   
-   - [◤ᴵᴬᴹǤΐรhaή ᴷʳⁱˢʰᵏᵃ◢ 『🇱🇰』 ⁪⁬⁮⁮⁮𝙍𝙖𝙟𝙖𝙥𝙖𝙠𝙨𝙝𝙖](https://github.com/Gishankrishka2) 
-
-   - [unknown boy┊𝙰𝙻𝙿𝙷𝙰 么 ™](https://github.com/tkalum) 
-
-
-# Contributors
-![GitHub Contributors Image](https://contrib.rocks/image?repo=TeamAlphaTg/Pm-Chat-bot)
-
-Powered By  [┊𝙰𝙻𝙿𝙷𝙰 么 ™ Bots 『🇱🇰』](https://t.me/AlphaTm_Botz)
-           - [Team ┊𝙰𝙻𝙿𝙷𝙰 么](https://t.me/Team_Alpha_Devs/4)
